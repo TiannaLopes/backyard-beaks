@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5F3AE5FD2B6E63AA004F8887 /* backyard_beaksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE5FC2B6E63AA004F8887 /* backyard_beaksApp.swift */; };
-		5F3AE5FF2B6E63AA004F8887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE5FE2B6E63AA004F8887 /* ContentView.swift */; };
 		5F3AE6012B6E63AC004F8887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AE6002B6E63AC004F8887 /* Assets.xcassets */; };
 		5F3AE6042B6E63AC004F8887 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AE6032B6E63AC004F8887 /* Preview Assets.xcassets */; };
 		5F3AE60E2B6E63AC004F8887 /* backyard_beaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE60D2B6E63AC004F8887 /* backyard_beaksTests.swift */; };
 		5F3AE6182B6E63AC004F8887 /* backyard_beaksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6172B6E63AC004F8887 /* backyard_beaksUITests.swift */; };
 		5F3AE61A2B6E63AC004F8887 /* backyard_beaksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6192B6E63AC004F8887 /* backyard_beaksUITestsLaunchTests.swift */; };
+		5F3AE62D2B6E66B2004F8887 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE62C2B6E66B2004F8887 /* LaunchScreenView.swift */; };
+		5F3AE6312B6E6AAA004F8887 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6302B6E6AAA004F8887 /* LogInView.swift */; };
+		5F3AE6332B6E8F41004F8887 /* FoodWasteDataTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6322B6E8F41004F8887 /* FoodWasteDataTrackingView.swift */; };
+		5F3AE6352B6E9376004F8887 /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6342B6E9376004F8887 /* SharingView.swift */; };
+		5F3AE6372B6E94AE004F8887 /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AE6362B6E94AE004F8887 /* HomeDashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		5F3AE5F92B6E63AA004F8887 /* backyard-beaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "backyard-beaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AE5FC2B6E63AA004F8887 /* backyard_beaksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backyard_beaksApp.swift; sourceTree = "<group>"; };
-		5F3AE5FE2B6E63AA004F8887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F3AE6002B6E63AC004F8887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3AE6032B6E63AC004F8887 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F3AE6092B6E63AC004F8887 /* backyard-beaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "backyard-beaksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		5F3AE6132B6E63AC004F8887 /* backyard-beaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "backyard-beaksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AE6172B6E63AC004F8887 /* backyard_beaksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backyard_beaksUITests.swift; sourceTree = "<group>"; };
 		5F3AE6192B6E63AC004F8887 /* backyard_beaksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backyard_beaksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F3AE62C2B6E66B2004F8887 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		5F3AE6302B6E6AAA004F8887 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		5F3AE6322B6E8F41004F8887 /* FoodWasteDataTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWasteDataTrackingView.swift; sourceTree = "<group>"; };
+		5F3AE6342B6E9376004F8887 /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		5F3AE6362B6E94AE004F8887 /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,10 @@
 		5F3AE5FB2B6E63AA004F8887 /* backyard-beaks */ = {
 			isa = PBXGroup;
 			children = (
+				5F3AE62F2B6E67A6004F8887 /* ViewModels */,
+				5F3AE62B2B6E6693004F8887 /* Views */,
+				5F3AE6262B6E656E004F8887 /* Models */,
 				5F3AE5FC2B6E63AA004F8887 /* backyard_beaksApp.swift */,
-				5F3AE5FE2B6E63AA004F8887 /* ContentView.swift */,
 				5F3AE6002B6E63AC004F8887 /* Assets.xcassets */,
 				5F3AE6022B6E63AC004F8887 /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				5F3AE6192B6E63AC004F8887 /* backyard_beaksUITestsLaunchTests.swift */,
 			);
 			path = "backyard-beaksUITests";
+			sourceTree = "<group>";
+		};
+		5F3AE6262B6E656E004F8887 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F3AE62B2B6E6693004F8887 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F3AE62C2B6E66B2004F8887 /* LaunchScreenView.swift */,
+				5F3AE6302B6E6AAA004F8887 /* LogInView.swift */,
+				5F3AE6322B6E8F41004F8887 /* FoodWasteDataTrackingView.swift */,
+				5F3AE6342B6E9376004F8887 /* SharingView.swift */,
+				5F3AE6362B6E94AE004F8887 /* HomeDashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F3AE62F2B6E67A6004F8887 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3AE5FF2B6E63AA004F8887 /* ContentView.swift in Sources */,
+				5F3AE6312B6E6AAA004F8887 /* LogInView.swift in Sources */,
 				5F3AE5FD2B6E63AA004F8887 /* backyard_beaksApp.swift in Sources */,
+				5F3AE6332B6E8F41004F8887 /* FoodWasteDataTrackingView.swift in Sources */,
+				5F3AE6352B6E9376004F8887 /* SharingView.swift in Sources */,
+				5F3AE6372B6E94AE004F8887 /* HomeDashboardView.swift in Sources */,
+				5F3AE62D2B6E66B2004F8887 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
